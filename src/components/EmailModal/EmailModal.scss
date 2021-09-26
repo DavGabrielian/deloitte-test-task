@@ -1,0 +1,41 @@
+.ant-modal {
+  top: 40px;
+
+  .ant-modal-content {
+    .ant-modal-header {
+      display: flex;
+      justify-content: center;
+      background-color: #ececec;
+      font-weight: 600;
+    }
+
+    .ant-modal-body {
+      p {
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .ant-radio-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .ant-checkbox-wrapper {
+        span {
+          font-size: 13px;
+        }
+      }
+
+      .actionBtns {
+        margin: 0;
+
+        .ant-col {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.headerBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15px;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    .spinner {
+      padding: 0 70px;
+      text-align: center;
+    }
+
+    > span {
+      svg {
+        height: 22px;
+        width: 22px;
+        fill: #adadad;
+      }
+    }
+
+    > img {
+      padding: 0 17px;
+    }
+
+    > h1 {
+      font-size: 13px;
+      line-height: 18px;
+      font-weight: 700;
+      margin: 0;
+      color: white;
+    }
+
+    .ant-btn-primary {
+      background-color: #86bc28;
+      border: 0;
+      border-radius: 4px;
+
+      .anticon {
+        font-size: 15px;
+      }
+
+      span {
+        font-size: 12px;
+      }
+    }
+
+    .ant-input-search {
+      .ant-input-wrapper {
+        background: #000000;
+
+        .ant-input {
+          background: #000000;
+          color: white;
+          border: 0;
+          border-bottom: 1px solid #adadad;
+          box-shadow: none;
+        }
+
+        .ant-input-group-addon {
+          background: black;
+          padding: 0 5px;
+
+          .ant-btn {
+            background: black;
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+}

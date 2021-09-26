@@ -1,0 +1,63 @@
+.contentBlock {
+  background-color: black;
+  height: 100vh;
+  padding: 15px;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  span {
+    color: white;
+  }
+
+  .contentTitle {
+    text-transform: uppercase;
+  }
+
+  .contentDesc {
+    margin-bottom: 20px;
+  }
+
+  .gutterRow {
+    div {
+      .spinner {
+        padding: 0 70px;
+        text-align: center;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 350px;
+    }
+
+    div {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-top: 25px;
+
+      > span {
+        width: 75%;
+      }
+
+      .ant-btn-primary {
+        background-color: #4d4d4d;
+        border: 0;
+        border-radius: 4px;
+        padding: 0 20px;
+
+        .anticon {
+          font-size: 15px;
+        }
+
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
