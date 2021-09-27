@@ -33,6 +33,7 @@ const Content = ({curKey, valFromSearch, setCurKeyFromSearch}) => {
     }, []);
 
     useEffect(() => {
+        // case sensitive search
         let item = data?.find(e => e.catName === curKey);
         setCurItem(item);
         setNotFound(false)
